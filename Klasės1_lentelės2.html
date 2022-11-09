@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lentelės</title>
+    <style>
+    .Lent{
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        border-left: 1px solid black;
+        border-collapse: collapse;
+        margin: 20px;
+        width: 60%
+    }
+    .Lent td{
+        border-bottom: 2px solid red;
+        border-right: 2px solid red;
+        padding: 5px;
+    }
+    .Lent th{
+        Border: 2px solid blue;
+    }
+    .Ligo{
+        border: 3px double darkgreen;
+        width:50%;
+        
+    }
+    .Ligo td{border:1px solid lightgreen;
+        border-collapse: collapse;}
+        /* DPI-Density per inch */
+        /* viewport- matomumo laukas */
+        /* padding - iš vidaus / margin iš išorės */
+        /* width- turi 100% o height neturi */
+    </style>
+</head>
+<body>
+    <h1>Krovinių važtaraštis</h1>
+    <table class="Lent">
+        <thead>
+        <tr>
+            <th>Produktai</th>
+            <th>Kiekis</th>
+            <th>Kaina</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Koldūnai</td>
+            <td>5vnt</td>
+            <td>3.95</td>
+        </tr>
+        <tr>
+            <td>Blynai</td>
+            <td>9vnt</td>
+            <td>2.95</td>
+        </tr>
+        <tr>
+            <td>Kotletai</td>
+            <td>4vnt</td>
+            <td>3.59</td>
+        </tr>
+    </tbody>
+    </table>
+    <h1>Paientų sarašas</h1>
+    <table class="Ligo">
+        <thead>
+            <tr>
+                <th>Vardas</th>
+                <th>Pavardė</th>
+                <th>Adresas</th>
+                <th>Telefonas</th>
+                <th>Gimimo diena</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Vardenis</td>
+                <td>Pavardenis</td>
+                <td>Gatvinio 56</td>
+                <td>89+45132698+</td>
+                <td>5007-94-36</td>
+            </tr>
+            <tr>
+                <td colspan="2">Vardenis</td>
+                <td>Gatvinio 56</td>
+                <td>89+45132698+</td>
+                <td rowspan="2">5007-94-36</td>
+            </tr>
+            <tr>
+                <td>Vardenis</td>
+                <td>Pavardenis</td>
+                <td>Gatvinio 56</td>
+                <td>89+45132698+</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
